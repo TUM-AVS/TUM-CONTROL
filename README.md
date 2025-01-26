@@ -55,9 +55,9 @@ The TUM Control simulation framework includes:
 
 <details>
 <summary> <h2> 🚀 Advantages </h2> </summary>
-- Capability to isolate the controller from the rest of the software and thus guarantee a static environment for rapid prototyping
-- Automatic C++ Code Generation with ACADOS
-- Developed packages can easily be integrated into the rest of the software stack for autonomous driving or Hardware-in-the-Loop simulations as well as be deployed on the vehicle.
+* Capability to isolate the controller from the rest of the software and thus guarantee a static environment for rapid prototyping
+* Automatic C++ Code Generation with ACADOS
+*  Developed packages can easily be integrated into the rest of the software stack for autonomous driving or Hardware-in-the-Loop simulations as well as be deployed on the vehicle.
 </details>
 
 <details>
