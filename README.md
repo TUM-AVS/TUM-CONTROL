@@ -131,7 +131,7 @@ Simulation parameters are in Config/sim_main_params.yaml
 10. generates performance analysis plots
 
 <details>
-## Credits and Contact Info
+<summary> <h2> 📇 Contact Info and Credits </h2> </summary>
 
 [Baha Zarrouki](mailto:baha.zarrouki@tum.de),
 Professorship Autonomous Vehicle Systems,
@@ -154,7 +154,7 @@ The following students made major contributions to this framework throughout the
 </details>
 
 <details>
-## Papers
+<summary> <h2> 📃 Citation </h2> </summary>
 Zarrouki, Baha, Chenyang Wang, and Johannes Betz. "A stochastic nonlinear model predictive control with an uncertainty propagation horizon for autonomous vehicle motion control." 2024 American Control Conference (ACC). IEEE, 2024. https://ieeexplore.ieee.org/abstract/document/10645032/
 
 Zarrouki, Baha, João Nunes, and Johannes Betz. "R²NMPC: A Real-Time Reduced Robustified Nonlinear Model Predictive Control with Ellipsoidal Uncertainty Sets for Autonomous Vehicle Motion Control." IFAC-PapersOnLine 58.18 (2024): 309-316. https://www.sciencedirect.com/science/article/pii/S2405896324014277
