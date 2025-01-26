@@ -34,7 +34,8 @@ Each NMPC has the following characteristics:
   - Actuator limits
 </details>
 
-## Architecture
+<details>
+<summary> <h2> 🔧 Architecture </h2> </summary>
 <p align="center">
 <img
   src="Utils/TUM_control_architecture.png"
@@ -49,11 +50,14 @@ The TUM Control simulation framework includes:
 - 2D live track & vehicle motion visualization
 - Closed-loop Performance analysis & MPC Debugging
 - MPC experiments benchmarking
+</details>
 
-## Advantages
+<details>
+<summary> <h2> 🚀 Advantages </h2> </summary>
 - Capability to isolate the controller from the rest of the software and thus guarantee a static environment for rapid prototyping
 - Automatic C++ Code Generation with ACADOS
 - Developed packages can easily be integrated into the rest of the software stack for autonomous driving or Hardware-in-the-Loop simulations as well as be deployed on the vehicle.
+</details>
 
 ## Installation
 Tested on:
@@ -101,7 +105,8 @@ export ACADOS_SOURCE_DIR="/home/alienware2/acados"
 ```bash
 sudo apt install python3-tk
 ```
-## Usage
+<details>
+<summary> <h2> 📈 Usage  </h2> </summary>
 To start the simulation, run the main file "main.py"
 
 Simulation parameters are in Config/sim_main_params.yaml
@@ -109,6 +114,7 @@ Simulation parameters are in Config/sim_main_params.yaml
 | ---| --- |
 | 0| CiL (Controller-Vehicle in Loop): simulation model= separate vehicle dynamics model|
 | 1| MPC Sim (MPC in Loop): simulation model= MPC predictions |
+</details>
 
 <details>
 <summary> <h2> 🚗 🛣️  Simulation Workflow </h2> </summary>
