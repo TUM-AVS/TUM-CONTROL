@@ -8,7 +8,9 @@ A modular simulation framework for Python ultra-rapid prototyping of self-adapti
   style="margin: 0 auto; max-width: 100px">
 </p>
 
-## NMPCs for motion control
+<details>
+<summary> <h2> 📖 Overview Modules: NMPCs for motion control </h2> </summary>
+
 The TUM Motion Control simulation framework includes the following base NMPC motion controller:
 - Nominal NMPC​
 - Stochastic NMPC (SNMPC)​
@@ -30,6 +32,7 @@ Each NMPC has the following characteristics:
 - Nonlinear constraints:​
   - Combined lateral- & longitudinal ​acceleration limits​
   - Actuator limits
+</details>
 
 ## Architecture
 <p align="center">
@@ -107,7 +110,8 @@ Simulation parameters are in Config/sim_main_params.yaml
 | 0| CiL (Controller-Vehicle in Loop): simulation model= separate vehicle dynamics model|
 | 1| MPC Sim (MPC in Loop): simulation model= MPC predictions |
 
-## Simulation workflow
+<details>
+<summary> <h2> 🚗 🛣️  Simulation Workflow </h2> </summary>
 1. loads MPC parameters from /Config folder
 2. loads reference trajectory and track .json file from /Config folder
 3. gets the starting index of the vehicle on the trajectory and sets the initial state of the vehicle
@@ -129,6 +133,7 @@ Simulation parameters are in Config/sim_main_params.yaml
 
 9. post-processing
 10. generates performance analysis plots
+</details>
 
 <details>
 <summary> <h2> 📇 Contact Info and Credits </h2> </summary>
