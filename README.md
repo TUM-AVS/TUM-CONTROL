@@ -59,7 +59,8 @@ The TUM Control simulation framework includes:
 - Developed packages can easily be integrated into the rest of the software stack for autonomous driving or Hardware-in-the-Loop simulations as well as be deployed on the vehicle.
 </details>
 
-## Installation
+<details>
+<summary> <h2> 💻 Installation  </h2> </summary>
 Tested on:
 - Ubuntu 20.04 LTS
 - Ubuntu 22.04 LTS
@@ -105,6 +106,8 @@ export ACADOS_SOURCE_DIR="/home/alienware2/acados"
 ```bash
 sudo apt install python3-tk
 ```
+</details>
+
 <details>
 <summary> <h2> 📈 Usage  </h2> </summary>
 To start the simulation, run the main file "main.py"
